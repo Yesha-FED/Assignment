@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip Path</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: url(../../Images/clip.jpg);
+            clip-path: polygon(0% 0%, 100% 0, 100% 38%, 51% 63%, 0 37%);
+            height: 150vh;
+        }
+        .nav , .bar{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding-top: 10px;
+            color: whitesmoke;
+        }
+        .y{
+            margin: 100px auto;
+            text-align: center;
+            padding: 20px;
+            width: 50%;
+            color: whitesmoke;
+        }
+        .bu{
+            padding: 100px;
+        }
+        .bu1{
+            background-color: rgb(250, 88, 60);
+            color: whitesmoke;
+            border: none;
+            padding: 15px;
+        }
+        .bu2{
+            color: whitesmoke;
+            background-color: transparent;
+            padding: 15px;
+            border: 1px rgb(249, 235, 235) solid;
+        }
+        .d{
+            display: flex;
+            width: 90%;
+            margin: 300px auto;
+            position: relative;
+            margin-top: -146px;
+            gap: 110px;
+            text-align: center;
+        }
+        .s1 > h1{
+            font-size: 20px;
+            color: rgb(250, 88, 60);
+            /* gap: 50px; */
+        }
+        .s1 img{
+            position: absolute;
+        }
+        .i{
+            left: 79px;
+            bottom: 130px;
+        }
+        .i2{
+            left: 48px;
+            bottom: 94px;
+        }
+        .i3{
+            left: 372px;
+            bottom: 119px;
+        }
+        .i4{
+            left: 346px;
+            bottom: 94px;
+        }
+        .i5{
+            left: 654px;
+            bottom: 113px;
+        }
+        .i6{
+            left: 626px;
+            bottom: 94px;
+        }
+        .i7{
+            left: 946px;
+            bottom: 114px;
+        }
+        .i8{
+            left: 920px;
+            bottom: 94px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div>
+                    <img src="../../Images/Logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="bar">
+                        <li>Home</li>
+                        <li>About US</li>
+                        <li>Portfolio</li>
+                        <li>Pricing</li>
+                        <li>Team</li>
+                        <li>contact</li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div class="y">
+                <h1>WELCOME TO SKY</h1>
+                <br>
+                <img src="../../Images/clipd.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, odit voluptate.
+                     Adipisci dignissimos dolor autem.</p>
+                <div class="bu">
+                    <button class="bu1">GET STARTED NOW</button>
+                    <button class="bu2">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="d">
+            <div class="s1">
+                <img src="../../Images/clip2.png" alt="" class="i">
+                <img src="../../Images/clip3.png" alt="" class="i2">
+                <h1>SLEEK DESIGN</h1>
+                <P>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. <br> Neque, ducimus.</P>
+            </div>
+            <div class="s1">
+                <img src="../../Images/clip4.jpg" alt="" class="i3">
+                <img src="../../Images/clip5.jpg" alt="" class="i4">
+                <h1>SLEEK DESIGN</h1>
+                <P>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. <br> Neque, ducimus.</P>
+            </div>
+            <div class="s1">
+                <img src="../../Images/clip6.png" alt="" class="i5">
+                <img src="../../Images/clip7.png" alt="" class="i6">
+                <h1>SLEEK DESIGN</h1>
+                <P>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. <br> Neque, ducimus.</P>
+            </div>
+            <div class="s1">
+                <img src="../../Images/clip8.png" alt="" class="i7">
+                <img src="../../Images/clip9.png" alt="" class="i8">
+                <h1>SLEEK DESIGN</h1>
+                <P>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. <br> Neque, ducimus.</P>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
