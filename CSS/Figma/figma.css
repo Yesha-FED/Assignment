@@ -413,3 +413,48 @@ footer{
     opacity: 0.1;
     height: 2px;
 }
+
+/* Media Query starts  */
+
+@media (max-width: 576px) {
+    .text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 40px;
+        text-align: center;
+        color: #35414b;
+        width: 55%;
+        margin: 0 auto;
+    }
+    .para{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #4e5a65;
+        width: 52%;
+        margin: 0 auto;
+    }
+    .text-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mail{
+        box-sizing: border-box;
+        width: 319px;
+        height: 52px;
+        background: #ffffff;
+        border: 1px solid #e1e5ea;
+        text-align: center;
+        border-radius: 4px 0px 0px 4px;
+        margin-left: 70px;
+    }
+    .bu-4{
+        width: 319px;
+        margin-left: 70px;
+        margin-top: 12px;
+    }   
+}
