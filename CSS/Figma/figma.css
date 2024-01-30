@@ -431,6 +431,10 @@ footer{
 /* Media Query starts  */
 
 @media (max-width: 576px) {
+    .discount{
+        align-items: center;
+        margin-left: 478px;
+    }
     .bar{
         display: block;
     }
