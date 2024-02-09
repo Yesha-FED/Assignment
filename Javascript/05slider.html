@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider in JavaScript</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 50%;
+            border: 5px solid black;
+        }
+        button{
+            height: 40px;
+            width: 80px;
+        }
+        h1{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Slider in JavaScript</h1>
+    <div class="box"></div>
+
+    <div class="btn">
+        <button onclick="Previous()">Previous</button>
+        <button onclick="Next()">Next</button>
+    </div>
+
+    <script>
+        let color = ["black",'blue','green','red','orange','skyblue'];
+        let i = 0;
+
+        const box = document.getElementById("box");
+        box.style.backgroundColor = color[i];
+
+        function Previous(){
+            if(i == 6){
+                i = 0
+            }
+            i++
+            box.style.backgroundColor = color[i];
+        };
+        function Next(){
+            if(i==0){
+                i=6
+            }
+            i--
+            box.style.backgroundColor = color[i];
+        };
+    </script>
+    
+</body>
+</html>
