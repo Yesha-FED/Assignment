@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advance java</title>
+    <style>
+        body {
+            background-color: rgb(9, 238, 81);
+            font-size: 20px;
+        }
+        .a{
+            background: rgb(193,232,6);
+            background: linear-gradient(90deg, rgba(193,232,6,1) 0%, rgba(220,8,238,1) 44%, rgba(8,244,150,1) 100%);
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="a">Advance JavaScript</h1>
+    <hr>
+    <h1>Q1.What is JavaScript. How to use it? </h1>
+    <p>Ans=> javaScrip ek Eventbase programing language hai or use single threaded language bhi kaha jata hai.or uska
+        use
+        developers dynamically updating content create karte hai ,animations ,pop-up menus,clickble button,control
+        multimedia, ye sab bnane me kam aata hai. </p>
+    <hr>
+    <h1>Q2. How many type of Variable in JavaScript? </h1>
+    <p>Ans=> three type of variable in js. Var , let , const.</p>
+    <hr>
+    <h1>Q3. Define a Data Types in js? </h1>
+    <p>define the data type that a variable can store. JavaScript includes 1)primitive and 2)non-primitive data
+        types.<br>
+        The primitive data types in JavaScript include string, number, boolean, undefined, null, and symbol. <br>
+        The non-primitive data type includes the array,object.</p>
+    <hr>
+    <h1>Q4.Write a mul Function Which will Work Properly When invoked With Following Syntax. </h1>
+    <p>
+        function mul(x) {<br>
+        return function (y) {<br>
+        return function (z) {<br>
+        return x * y * z;<br>
+        };<br>
+        };<br>
+        }
+    </p>
+    <hr>
+    <h1>Q5. What the deference between undefined and undeclare in JavaScript? </h1>
+    <p>Undeclared means variable mai declared nahi kiya<br>
+        Undefined means variable mai declared to kiya hai par value assign nahi ki. </p>
+    <hr>
+    <h1>Q6.Using console.log() print out the following statement:The quote 'There is no exercise
+        better for the heart than reaching down and lifting people up.' by John Holmes teaches us to
+        help one another. Using console.log() print out the following quote by Mother Teresa:</h1>
+    <p>
+        script<br>
+            let text = ('There is no exercise better for the heart than reaching down and lifting people up.')<br>
+            console.log(text);<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q7.Check if typeof '10' is exactly equal to 10. If not make it exactly equal? </h1>
+    <p>
+        script <br>
+            let a = 10<br>
+            console.log(a == '10');<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q8. Write a JavaScript Program to find the area of a triangle? </h1>
+    <p>
+        script <br>
+            /*Define the lengths of the three t of a triangle */ <br> 
+            let y1 = 2; <br>
+            let y2 = 3; <br>
+            let y3 = 4; <br>
+
+            /* Calculate the semi-perimeter of the triangle */ <br>
+            let s = (y1 + y2 + y3) / 2; <br>
+
+            /* Use Heron's formula to calculate the area of the triangle */ <br>
+            let area = Math.sqrt(s * ((s - y1) * (s - y2) * (s - y3))); <br>
+
+            /* Log the calculated area to the console */ <br>
+            console.log(area); <br>
+        script <br>
+    </p>
+    <hr>
+    <h1>Q9. Write a JavaScript program to calculate days left until next Christmas? </h1>
+    <p>
+        
+    </p>
+    <hr>
+    <h1>Q10. What is Condition Statement? </h1>
+    <p>Ans.
+        Definition. A conditional statement is a statement that can be written in the form “If P then Q,” where P and Q
+        are sentences. For this conditional statement, P is called the hypothesis and Q is called the conclusion.
+        Intuitively, “If P then Q” means that Q must be true whenever P is true</p>
+
+    <hr>
+    <h1>Q11. Find circumference of Rectangle formula : C = 4 * a ? </h1>
+    <p>a=l*w</p>
+    <hr>
+    <h1>Q12.WAP to convert years into days and days into years? </h1>
+    <p>
+
+    </p>
+    <hr>
+    <h1>Q13. Convert temperature Fahrenheit to Celsius? (Conditional logic Question) </h1>
+    <p> Enter Temperature :
+        'input type="number" id="temperature" value=""><br><br>
+        'button onclick="clickme()">Click Me'/button>
+        <br>
+
+    'h1' id="s"'/h1'
+    script <br>
+        function clickme() { <br>
+            var y = document.getElementById("temperature").value; <br>
+            D = (y - 32) * 5 / 9; <br>
+            document.getElementById("s").innerHTML = D; <br>
+        } <br>
+    script
+    </p>
+    <hr>
+    <h1>Q14. Write a JavaScript exercise to get the extension of a filename.? </h1>
+    <p></p>
+    <hr>
+    <h1>Q15.What is the result of the expression (5 > 3 && 2 < 4)?</h1>
+    <p>
+        script <br>
+            let d = 5 <br>
+            console.log((d > 3) && (2 < 4)); <br>
+        script <br>
+    </p>
+    <hr>
+    <h1>Q16. What is the result of the expression (true && 1 && "hello")? </h1>
+    <p>
+        script <br>
+            let c = true, m = 1, n = 'hello'; <br>
+            let k = (true && 1 && 'hello'); <br>
+            console.log(k); <br>
+        script <br>
+    </p>
+    <hr>
+    <h1>Q17.What is the result of the expression true && false || false && true?</h1>
+    <p></p>
+    <hr>
+    <h1>Q18.What is a Loop and Switch Case in JavaScript define that ? </h1>
+    <p>Switch Case : The switch case in java executes one statement from multiple ones. <br>
+        Loop-Case : if you want to run the same code over and over again, each time with a different value.
+    </p>
+    <hr>
+    <h1>Q19.What is the use of is Nan function? </h1>
+    <p>isNaN() returns true if a number is Not-a-Number. In other words: isNaN() converts the value to a number
+        before testing it.</p>
+    <hr>
+    <h1>Q20.What is the difference between && and || in JavaScript? </h1>
+    <p>If the expression on the left of && is falsy, it will immediately return false without checking the
+        expression on the right. If the expression on the left of || is truthy, it will immediately return true
+        without checking the expression on the right.</p>
+    <hr>
+    <h1>Q21. What is the use of Void (0)? </h1>
+    <p>void 0 means returning undefined (void) as a primitive value.</p>
+    <hr>
+    <h1>Q22. Check Number Is Positive or Negative in JavaScript? </h1>
+    <p>
+        script <br>
+            let D = prompt("Enter your Value"); <br>
+        script <br>
+    </p>
+
+    <h2>Q23.Find the Character Is Vowel or Not ? </h2>
+    <p>
+        script <br>
+            var b = prompt("Enter  Your Character"); <br>
+            var v = ["a", "e", "i", "o", "u"]; <br>
+            if (v.includes(b)) { <br>
+                alert("Vowel"); <br>
+            } <br>
+            else { <br>
+                alert("Consonent") <br>
+            } <br>
+        script
+    </p>
+    <hr>
+    <h1>Q24. Write to check whether a number is negative, positive or zero? </h1>
+    <p></p>
+    <hr>
+    <h1>Q25. Write to find number is even or odd using ternary operator in JS? </h1>
+    <p>
+        script<br>
+            let e = prompt("Enter a number")<br>
+            if (e % 2 == 0) {<br>
+                alert("Even Number")<br>
+            }<br>
+            else {<br>
+                alert("Odd Number")<br>
+            }<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q26. Write find maximum number among 3 numbers using ternary operator in JS?</h1>
+    <p></p>
+    <hr>
+    <h1>Q27.Write to find minimum number among 3 numbers using ternary operator in JS? </h1>
+    <p></p>
+    <hr>
+    <h1>Q28.Write to find the largest of three numbers in JS? </h1>
+    <p></p>
+    <hr>
+    <h1>Q29- i. Monday to Sunday using switch case in JS? </h1>
+    <p>
+        script<br>
+            let daysall = 1;<br>
+            switch (daysall) {<br>
+                case 1:<br>
+                    alert("Sunday");<br>
+                    break;<br>
+
+                case 2:<br>
+                    alert("Monday");<br>
+                    break;<br>
+
+                case 3:<br>
+                    alert("Tuesday");<br>
+                    break;<br>
+
+                case 4:<br>
+                    alert("Wensday");<br>
+                    break;<br>
+
+                case 5:<br>
+                    alert("Thusday");<br>
+                    break;<br>
+
+                case 6:<br>
+                    alert("Friday");<br>
+                    break;<br>
+
+                case 7:<br>
+                    alert("Setardat");<br>
+                    break;<br>
+
+                default:<br>
+                    alert("Invelid Days");<br>
+                    break;<br>
+            }<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q30.What are the looping structures in JavaScript? Any one Example?</h1>
+    <p>for - loops through a block of code a number of times. <br>
+            for/in - loops through the properties of an object. <br>
+            for/of - loops through the values of an iterable <br>
+            while - loops through a block of code while a specified condition is true.</p>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 31 to 65 </title>
+    <style>
+        body {
+            background-color: rgb(9, 192, 238);
+            font-size: 20px;
+        }
+        .a{
+            background: rgb(193,232,6);
+            background: linear-gradient(90deg, rgba(193,232,6,1) 0%, rgba(220,8,238,1) 44%, rgba(8,244,150,1) 100%);
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="a">Advance JavaScript</h1>
+    <h1>Q31 . Write a print 972 to 897 using for loop in JS? </h1>
+    <p>
+        script <br>
+            // for (let i = 897; i <= 972; i++) {
+            //     if (/[0125]/.test(i)) {
+            //         continue;
+            //     } else {
+            //         console.log(i)
+            //     }
+            // }
+            for (let i = 972; i >= 897; i--) { <br>
+                console.log(i); <br>
+            } <br>
+        script <br>
+    </p>
+    <hr>
+    <h1>Q32 . Write to print factorial of given number? </h1>
+    <p></p>
+    <hr>
+    <h1>Q33.Write to print Fibonacci series up to given numbers? </h1>
+    <p>
+        script<br>
+            let a = 10;<br>
+            let b = 20;<br>
+
+            for (let i = 1; i <= 5; i++) {<br>
+                let c = a + b;<br>
+                console.log(c);<br>
+                a = b;<br>
+                b = c;<br>
+            }<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q34. Write to print number in reverse order e.g.: number = 64728 ---> reverse =82746 in JS? </h1>
+    <p></p>
+    <hr>
+    <h1>Q35.</h1>
+    <p></p>
+    <hr>
+    <h1>Q36.</h1>
+    <p></p>
+    <hr>
+    <h1>Q37.Use console.log() and escape characters to print the following pattern in JS?</h1>
+    <p>1) <br>
+        script <br>
+            for (let i = 1; i <= 5; i++) { <br> 
+                document.write(i + '1' + i + i * i + i * i * i); <br>
+                document.write("<br>") <br>
+            } <br>
+            document.write("<br>")<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q38. Use pattern in console.log in JS? </h1>
+    <p>1) <br>
+        script <br>
+           let num = 65; <br>
+           for (let row=1; row<=5; row++){ <br>
+            for(let col=1; col<= row; col++){<br>
+                document.write(String.fromCharCode(num.toString()));<br>
+                num++<br>
+            }<br>
+            document.write("<br>")<br>
+           }<br>
+           
+        script<br>
+    </p>
+
+    <p>2) <br>
+
+        script<br>
+            for (let i = 1; i <= 5; i++) {<br>
+                for (let j = 1; j <= i; j++) {<br>
+                    document.write(j % 2 === 0 ? '0 ' : '1 ');<br>
+                }<br>
+                document.write('<br>');<br>
+            }<br>
+        script<br>
+
+    <p> 3 )<br>
+        script<br>
+
+            let count = 1;<br>
+
+            for (let i = 1; i <= 5; i++) {<br>
+                for (let d = 1; d <= i; d++) {<br>
+                    document.write(count + " ");<br>
+                    count++;<br>
+                }<br>
+                document.write("<br>");<br>
+            }<br>
+
+        script<br>
+    </p>
+
+    <p>4) <br><br>
+        script<br>
+            for (let i = 0; i <= 4; i++) {<br>
+                for (let D = 0; D < i; D++) {<br>
+                    document.write(" * ")<br>
+                }<br>
+                document.write("*")<br>
+                document.write("<br>")<br>
+            }<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q39. Accept 3 numbers from user using while loop and check each numbers palindrome? </h1>
+    <p></p>
+    <hr>
+    <h1>Q40.0 Write a JavaScript Program to display the current day and time in the following format.
+        Sample Output: Today is Friday. Current Time is 12 PM: 12 : 22 2 ? </h1>
+    <p>
+        script<br>
+            let date = new Date();<br>
+            let days = ['Sunday', 'Monday', 'Tuseday', 'Wendnesday', 'Thursday', 'Friday', 'Saturday'];<br>
+
+            let dat = date.getDay();<br>
+            let time = date.getHours();<br>
+
+
+            console.log(`Today is ${days[dat]}.Current time is ${time > 12 ? time - 12 : time} ${time >= 12 ? 'PM' : 'AM'}`);<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q41. Write a JavaScript program to get the current date? </h1>
+    <p>
+        script<br>
+            let date_2 = new Date().toDateString();<br>
+            console.log(date_2);<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q42.Write a JavaScript program to compare two objects? </h1>
+    <p>
+        script<br>
+            // Example of different reference <br>
+            const obj1 = { a: 1, b: 2 };<br>
+            const obj2 = { a: 1, b: 2 };<br>
+            console.log(obj1 === obj2);<br>
+
+            // Example of same reference <br>
+            const obj3 = { a: 1, b: 2 };<br>
+            const obj4 = obj3;<br>
+            console.log(obj3 === obj4); <br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q43.Write a JavaScript program to convert an array of objects into CSV string? </h1>
+    <p>
+        script<br>
+
+            let array = ["Anisha", '25', 'React js'];<br>
+            let csv = array.join();<br>
+            console.log(csv);<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q44.Write a JavaScript program to capitalize first letter of a string? </h1>
+    <p>
+        script<br>
+            function capitalize() {<br>
+                let string = "goodmorning";<br>
+                console.log(string[0].toUpperCase() + string.slice(1));<br>
+            }<br>
+            capitalize();<br>
+        script<br>
+    </p>
+    <hr>
+    <h1>Q45. Write a JavaScript program to determine if a variable is array?</h1>
+    <p></p>
+    <hr>
+
+
+</body>
+
+</html>
